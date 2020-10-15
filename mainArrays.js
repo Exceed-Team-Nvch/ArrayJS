@@ -34,4 +34,5 @@ function isHtml(item) {
 };
 
 console.log("Метод every: каждый ли элемент равен 'html' " + arr.every(isHtml));
+
 console.log("Метод some:  есть хотя бы один элемент равный 'html' " + arr.some(isHtml));
